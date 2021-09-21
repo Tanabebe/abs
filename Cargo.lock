@@ -7,6 +7,7 @@ name = "abs"
 version = "0.1.0"
 dependencies = [
  "proconio",
+ "text_io",
 ]
 
 [[package]]
@@ -23,3 +24,9 @@ checksum = "91c333be3af2936f8e810300bc74fe4d0cc168ebc04ab02a28c5b1060fa1bd59"
 dependencies = [
  "lazy_static",
 ]
+
+[[package]]
+name = "text_io"
+version = "0.1.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee74b5019b48991b09803402aaf9e65a053b3993fe9d9c475ab67a395358ba76"
